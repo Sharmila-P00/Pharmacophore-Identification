@@ -2,10 +2,10 @@ from rdkit import Chem
 from features import parameters
 from functional_groups import groups
 
-sdf_file=("C:/Users/HP/Desktop/mtech project/ligand_trials/efavirenz_edited_ligand.sdf")
+
 
 Param=parameters()
-features=Param.descriptor(sdf_file,groups())
+features=Param.descriptor(file,groups())
 
 class coordinates:
     
@@ -35,9 +35,6 @@ class coordinates:
         return feature_coord
     
 
-y=coordinates()
-coord=y.coord(sdf_file)
-fea=y.fea_coord(coord,features)
-#print(fea)
-#print(coord)
+
+
 
