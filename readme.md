@@ -1,6 +1,6 @@
 The code is used to find the pharmacophore feature, feature coordinates, radius of tolerance and vector of each Pharmacophore features.<br>
 
-<b>Pharmacophore features<b>==> Aromatic,Hydrogen Bond Donor, Acceptor, Positive Ion, Negative Ion and Hydrophobic. <br>
+<b>Pharmacophore features</b> ==> Aromatic,Hydrogen Bond Donor, Acceptor, Positive Ion, Negative Ion and Hydrophobic. <br>
 
 features.py ==> Can find the Pharmacophore features present in any ligand along with their heavy atoms of that feature based on the substructure of ligand. <br>
 
